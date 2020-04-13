@@ -8,3 +8,7 @@ Individuals may enter an event and when the page is refreshed after hitting the 
 data will persist on the page.
 
 I used jQuery and bootstrap to accomplish this task.
+
+The live site can be found at https://jakobloke.github.io/Day-Scheduler/
+
+I would like to thank the instructors and TA's at Berkeley Extension Bootcamp for help with this application.
