@@ -17,119 +17,119 @@ var changeTime = moment().format('H')
 console.log(changeTime);
 
 if(changeTime < row9Am) {
-    $("#time1col1").addClass("future");
+    $('#input1').addClass("past");
     $("#time1col2").addClass("future");
 }
 else if(changeTime > row9Am) {
-    $("#time1col1").addClass("past");
+    $('#input1').addClass("past");
     $("#time1col2").addClass("past");
 }
 else if(changeTime == row9Am) {
-    $("#time1col1").addClass("present");
+    $('#input1').addClass("past");
     $("#time1col2").addClass("present");
 }
 
 if(changeTime < row10Am) {
-    $("#time2col1").addClass("future");
+    $('#input2').addClass("past");
     $("#time2col2").addClass("future");
 }
 else if(changeTime > row10Am) {
-    $("#time2col1").addClass("past");
+    $('#input2').addClass("past");
     $("#time2col2").addClass("past");
 }
 else if(changeTime == row10Am) {
-    $("#time2col1").addClass("present");
+    $('#input2').addClass("past");
     $("#time2col2").addClass("present");
 }
 
 if(changeTime < row11Am) {
-    $("#time3col1").addClass("future");
+    $('#input3').addClass("past");
     $("#time3col2").addClass("future");
 }
 else if(changeTime > row11Am) {
-    $("#time3col1").addClass("past");
+    $('#input3').addClass("past");
     $("#time3col2").addClass("past");
 }
 else if(changeTime == row11Am) {
-    $("#time3col1").addClass("present");
+    $('#input3').addClass("past");
     $("#time3col2").addClass("present");
 }
 
 if(changeTime < row12Pm) {
-    $("#time4col1").addClass("future");
+    $('#input4').addClass("past");
     $("#time4col2").addClass("future");
 }
 else if(changeTime > row12Pm) {
-    $("#time4col1").addClass("past");
+    $('#input4').addClass("past");
     $("#time4col2").addClass("past");
 }
 else if(changeTime == row12Pm) {
-    $("#time4col1").addClass("present");
+    $('#input4').addClass("past");
     $("#time4col2").addClass("present");
 }
 
 if(changeTime < row1Pm) {
-    $("#time5col1").addClass("future");
+    $('#input5').addClass("past");
     $("#time5col2").addClass("future");
 }
 else if(changeTime > row1Pm) {
-    $("#time5col1").addClass("past");
+    $('#input5').addClass("past");
     $("#time5col2").addClass("past");
 }
 else if(changeTime == row1Pm) {
-    $("#time5col1").addClass("present");
+    $('#input5').addClass("past");
     $("#time5col2").addClass("present");
 }
 
 if(changeTime < row2Pm) {
-    $("#time6col1").addClass("future");
+    $('#input6').addClass("past");
     $("#time6col2").addClass("future");
 }
 else if(changeTime > row2Pm) {
-    $("#time6col1").addClass("past");
+    $('#input6').addClass("past");
     $("#time6col2").addClass("past");
 }
 else if(changeTime == row2Pm) {
-    $("#time6col1").addClass("present");
+    $('#input6').addClass("past");
     $("#time6col2").addClass("present");
 }
 
 if(changeTime < row3Pm) {
-    $("#time7col1").addClass("future");
+    $('#input7').addClass("past");
     $("#time7col2").addClass("future");
 }
 else if(changeTime > row3Pm) {
-    $("#time7col1").addClass("past");
+    $('#input7').addClass("past");
     $("#time7col2").addClass("past");
 }
 else if(changeTime == row3Pm) {
-    $("#time7col1").addClass("present");
+    $('#input7').addClass("past");
     $("#time7col2").addClass("present");
 }
 
 if(changeTime < row4Pm) {
-    $("#time8col1").addClass("future");
+    $('#input8').addClass("past");
     $("#time8col2").addClass("future");
 }
 else if(changeTime > row4Pm) {
-    $("#time8col1").addClass("past");
+    $('#input8').addClass("past");
     $("#time8col2").addClass("past");
 }
 else if(changeTime == row4Pm) {
-    $("#time8col1").addClass("present");
+    $('#input8').addClass("past");
     $("#time8col2").addClass("present");
 }
 
 if(changeTime < row5Pm) {
-    $("#time9col1").addClass("future");
+    $('#input9').addClass("past");
     $("#time9col2").addClass("future");
 }
 else if(changeTime > row5Pm) {
-    $("#time9col1").addClass("past");
+    $('#input9').addClass("past");
     $("#time9col2").addClass("past");
 }
 else if(changeTime == row5Pm) {
-    $('#time9col1').addClass("present");
+    $('#input9').addClass("past");
     $("#time9col2").addClass("present");
 }
 
